@@ -1,27 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIDESHOW</title>
     <link rel="stylesheet" href="style.css">
-    <title>SEMÁFORO</title>
 </head>
 <body>
-    <main>
-        <!-- imagem -->
-    <div>
-        <img src="./img/desligado.png" alt="Semáforo desligado" id="img" >
+    <div class="container-slide">
+        <div class="action-button" id="previous">&laquo</div>
+        <div class="container-items" id="container-items"></div>
+        <div class="action-button" id="next">&raquo</div>
+        
     </div>
 
-    <!-- botoes -->
-    <div id="buttons">
-        <button id="red" class="buttons">Vermelho</button>
-        <button id="yellow" class="buttons">Amarelo</button>
-        <button id="green" class="buttons">Verde</button>
-        <button id="automatico" class="buttons">Automático</button>
-    </div>
-    </main>
-    
-    <script src="semaforo.js"></script>
+    <script src="./slideShow.js"></script>
 </body>
 </html>
